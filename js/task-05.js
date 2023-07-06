@@ -4,7 +4,7 @@ const selectors = {
     call: document.querySelector('#name-output'),
 }
 
-selectors.input.addEventListener('change', handlerName);
+selectors.input.addEventListener('input', handlerName);
 
 function handlerName(event) {
     selectors.call.textContent = event.currentTarget.value;
