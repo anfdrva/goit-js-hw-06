@@ -17,8 +17,3 @@ const li = ingredients.map((product) => {
 
 list.append(...li);
 
-// const li =document.createElement("li");
-// li.classList.add("item");
-
-
-// console.log(li);

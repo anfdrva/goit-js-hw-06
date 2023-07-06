@@ -22,11 +22,7 @@ function handlerAdd() {
     number.textContent = `${counterValue}`;
 }
 
-// const selectors = {
-//     counter: document.querySelector("#counter"),
-//     plus: document.querySelector("decrement"),
-//     minus: document.querySelector("increment"),
-// }
+
 
 
 
